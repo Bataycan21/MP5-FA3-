@@ -11,24 +11,24 @@ body {
 
 .problem {
   background-color: #ffffff;
-  padding: 50px;              
+  padding: 150px;              
   border-radius: 12px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
   text-align: center;
   width: 100%;
-  max-width: 600px;           
+  max-width: 1000px;           
 }
 
 h2 {
   margin-bottom: 25px;
-  font-size: 28px;            
+  font-size: 40px;            
   color: #333333;
 }
 
 input[type="text"] {
   width: 100%;
-  padding: 14px;              
-  font-size: 18px;            
+  padding: 30px;              
+  font-size: 35px;            
   margin-bottom: 20px;
   border: 1px solid #cccccc;
   border-radius: 6px;
@@ -39,8 +39,8 @@ button {
   background-color: #2980b9;  
   color: white;
   border: none;
-  padding: 14px 22px;         
-  font-size: 18px;            
+  padding: 20px 26px;         
+  font-size: 24px;            
   border-radius: 6px;
   cursor: pointer;
 }
@@ -51,7 +51,7 @@ button:hover {
 
 .output {
   margin-top: 20px;
-  font-size: 20px;            
+  font-size: 30px;            
   color: #2c3e50;
   font-weight: bold;
 }
