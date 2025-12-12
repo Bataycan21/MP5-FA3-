@@ -1,39 +1,57 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f4f4f4;
-  padding: 20px;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .problem {
-  background: #fff;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  padding: 50px;              
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 100%;
+  max-width: 600px;           
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 28px;            
+  color: #333333;
 }
 
 input[type="text"] {
-  width: 80%;
-  padding: 8px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  width: 100%;
+  padding: 14px;              
+  font-size: 18px;            
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  box-sizing: border-box;
 }
 
 button {
-  padding: 8px 12px;
-  background: #2980b9;
+  background-color: #2980b9;  
   color: white;
   border: none;
-  border-radius: 4px;
+  padding: 14px 22px;         
+  font-size: 18px;            
+  border-radius: 6px;
   cursor: pointer;
 }
 
 button:hover {
-  background: #1f6391;
+  background-color: #1f6391;
 }
 
 .output {
-  margin-top: 10px;
+  margin-top: 20px;
+  font-size: 20px;            
+  color: #2c3e50;
   font-weight: bold;
 }
-
